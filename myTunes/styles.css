@@ -1,0 +1,328 @@
+html {
+  font-size: 16px;
+}
+
+nav {
+  display: inline-block;
+  background-color: rgb(36, 36, 36);
+  color: white;
+  width: 100%;
+  position: fixed;
+  right: 0px;
+  text-align: left;
+}
+
+* {
+  margin: 0 auto;
+  font-family: sans-serif;
+  text-align: center;
+  box-sizing: border-box;
+}
+a {
+  display: inline-block;
+  width: 6.25rem;
+  text-align: center;
+  text-decoration: none;
+  padding: 0.625rem 0;
+  color: #eee;
+}
+.guitar {
+  background-image: url(./images/image1.jpg);
+  background-size: cover;
+  height: 100vh;
+  color: white;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background-position: center;
+  justify-content: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  justify-items: center;
+  justify-items: center;
+  padding: 2rem 0.25rem;
+}
+
+.music {
+  background-color: rgb(59, 59, 59);
+  background-size: cover;
+
+  color: white;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background-position: center;
+  justify-content: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+button {
+  background-color: rgb(233, 22, 22);
+  padding: 1.5625rem;
+  color: #eee;
+  border: none;
+  margin: 3.125rem;
+  font-size: 0.9375rem;
+}
+
+.tap {
+  background-color: rgb(228, 220, 220);
+  background-size: cover;
+
+  color: rgb(46, 44, 44);
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background-position: center;
+  justify-content: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.tap button {
+  background-color: rgb(46, 46, 109);
+}
+.tap h2 {
+  margin: 1.25rem 0px;
+}
+.galaxy {
+  background-image: url(./images/galaxy.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+
+  color: rgb(255, 255, 255);
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background-position: center;
+  justify-content: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+img {
+  margin: 1.25rem 0px;
+}
+.galaxy h3 {
+  font-size: 2.375rem;
+}
+.galaxy p {
+  font-size: 1.25rem;
+}
+.card {
+  background-color: rgb(228, 220, 220);
+  background-size: cover;
+
+  color: rgb(46, 44, 44);
+
+  width: 100%;
+  background-position: center;
+
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.writting {
+  width: 40%;
+  display: inline-block;
+  margin: 0 4.375rem;
+
+  padding: 0px 0.4375rem;
+}
+.writting img {
+  height: 50vh;
+}
+.writting h4 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-align: left;
+  position: relative;
+  left: 1.25rem;
+}
+.writting p {
+  font-size: 0.9375rem;
+  text-align: left;
+  margin-bottom: 1.25rem;
+}
+.read {
+  position: relative;
+  right: 9.375rem;
+  bottom: 5.5625rem;
+}
+.writting a {
+  color: rgb(55, 50, 82);
+  text-decoration: none;
+  text-align: left;
+  position: relative;
+  right: 9.375rem;
+}
+.lastlists {
+  background-color: rgb(59, 59, 59);
+  background-size: cover;
+  text-align: left;
+
+  color: white;
+
+  background-position: center;
+
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.Lists {
+  width: 100%;
+  margin: 0 auto;
+  padding: 2.5rem 4.375rem;
+}
+.MyList {
+  width: 18.75rem;
+  display: inline-block;
+}
+.items {
+  width: 10.9375rem;
+  display: inline-block;
+}
+.lastlists h3 {
+  font-size: 0.875rem;
+}
+.lastlists a {
+  font-size: 0.6875rem;
+}
+.line {
+  width: 7rem;
+
+  border-bottom: 1px solid rgb(121, 116, 116);
+}
+.line1 {
+  width: 18.75rem;
+  position: relative;
+  left: -3.75rem;
+  border-bottom: 1px solid rgb(70, 66, 66);
+}
+.foot {
+  display: inline-block;
+  background-color: rgb(36, 36, 36);
+  color: white;
+  width: 100%;
+  position: relative;
+}
+
+@media only screen and (max-width: 480px) {
+  nav {
+    display: inline-flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  nav a {
+    display: inline-block;
+    width: 10%;
+    text-align: center;
+    text-decoration: none;
+    padding: 1rem 0;
+    font-size: 0.9rem;
+  }
+
+  * {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    padding: 0;
+    width: 100%;
+  }
+  .guitar {
+    width: 100%;
+    margin: 0 auto;
+
+    height: unset;
+  }
+  button {
+    font-size: 0.8rem;
+    width: 50%;
+    border-radius: 1rem;
+    margin: 1rem 0;
+  }
+  .music {
+    padding: 2rem 1rem;
+    margin: 0 auto;
+  }
+  .music img {
+    padding: 0 1rem;
+    margin: 0;
+  }
+
+  .tap {
+    padding: 2rem 1rem;
+    margin: 0 auto;
+  }
+  .tap img {
+    padding: 0 1rem;
+    margin: 0;
+  }
+
+  .galaxy {
+    padding: 2rem 1rem;
+    margin: 0 auto;
+  }
+  .galaxy h3 {
+    font-size: 1.5rem;
+    padding: 1rem 0;
+  }
+  .galaxy p {
+    font-size: unset;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin: 0 auto;
+  }
+  .writting {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  .lastlists {
+    margin: 0 auto;
+  }
+  .read {
+    position: unset;
+    text-align: center;
+    margin: 0 auto;
+    bottom: unset;
+    right: unset;
+  }
+  .read h4 {
+    position: unset;
+  }
+  .writting p,
+  .writting h4 {
+    text-align: center;
+  }
+  .writting h4 {
+    text-align: center;
+    padding: 1rem 0.3rem;
+  }
+  .writting a {
+    position: unset;
+  }
+  .line1 {
+    position: unset;
+  }
+  .Lists {
+    padding: 1rem 0;
+    margin: 0 auto;
+  }
+  .MyList {
+    width: 100%;
+  }
+  .line {
+    width: 20%;
+  }
+  .items {
+    width: 30%;
+  }
+  .foot {
+    margin: 0 auto;
+  }
+}
